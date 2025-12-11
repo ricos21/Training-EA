@@ -1,0 +1,41 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="0.0 Business Capability Map"
+    id="id-fc80e87bbfe143848d74304dd3d509de">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f98dd65873464731a18cf31b2e279e78"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5060df415f994ed1ae740132d3fb68be"
+        source="id-f98dd65873464731a18cf31b2e279e78"
+        target="id-85c8409b76474e9ba578afe5825c3be3">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-4434458dc40e46f190e1ee9a4a24eb97.xml#id-4434458dc40e46f190e1ee9a4a24eb97"/>
+    </sourceConnections>
+    <bounds
+        x="57"
+        y="72"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-85c8409b76474e9ba578afe5825c3be3"
+        targetConnections="id-5060df415f994ed1ae740132d3fb68be">
+      <bounds
+          x="48"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessService"
+          href="BusinessService_id-3cbd35163d1541abad41d24a1ee4389b.xml#id-3cbd35163d1541abad41d24a1ee4389b"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-244dc2448e7d4b37955728cc13dca3be.xml#id-244dc2448e7d4b37955728cc13dca3be"/>
+  </children>
+</archimate:ArchimateDiagramModel>
